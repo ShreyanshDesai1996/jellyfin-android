@@ -248,7 +248,7 @@ define(['connectionManager', 'cardBuilder', 'appSettings', 'dom', 'apphost', 'la
             } else if (viewType === 'music') {
                 shape = getSquareShape();
             } else {
-                shape = getThumbShape();
+                shape = getPortraitShape();
             }
 
             return cardBuilder.getCardsHtml({
